@@ -18,7 +18,8 @@ Note: My first result is a Wikipedia result so i created tests with that page th
 
 Output:
 
- Google Homepage Search
+ Google Homepage Search     
+
      User can search with Google Search - Error  
         ✓ Given I am on the homepage
         ✓ When I type "The name of the wind" into the search field
@@ -27,7 +28,7 @@ Output:
         ✖ And the first result is "The Name of the Wind - Patrick Rothfuss"
         - When I click on the first result link
         - Then I go to the "Patrick Rothfuss - The Books" page
-
+        
      User can search by using the suggestions - Error 
         ✓ Given I am on the homepage
         ✓ When I type "The name of the w" into the search field
