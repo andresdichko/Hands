@@ -2,9 +2,10 @@
 
 Made with WebdriverIO (Node.js/JavaScript) and Cucumber.
 
-Needed:  -Node.js : https://nodejs.org/en/blog/release/v12.18.1/
+Needed:  
+-Node.js : https://nodejs.org/en/blog/release/v12.18.1/
 
-         -Python:  https://www.python.org/downloads/release/python-385/
+-Python:  https://www.python.org/downloads/release/python-385/
 
 **--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--
 
