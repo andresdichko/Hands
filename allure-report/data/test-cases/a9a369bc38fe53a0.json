@@ -1,0 +1,311 @@
+{
+  "uid" : "a9a369bc38fe53a0",
+  "name" : "And I click the Google Search button",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search.And I click the Google Search button",
+  "historyId" : "7a69cc292ae3533db1f5dcec6403603c",
+  "time" : {
+    "start" : 1609266364831,
+    "stop" : 1609266366204,
+    "duration" : 1373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609266364831,
+        "stop" : 1609266364878,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc43f22703e2d206",
+        "name" : "Request",
+        "source" : "bc43f22703e2d206.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "59f364d114c607ec",
+        "name" : "Response",
+        "source" : "59f364d114c607ec.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1609266364886,
+        "stop" : 1609266365049,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a55378d1df1bad5f",
+        "name" : "Request",
+        "source" : "a55378d1df1bad5f.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "3d2ef634cc1cbb7a",
+        "name" : "Response",
+        "source" : "3d2ef634cc1cbb7a.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1609266365049,
+        "stop" : 1609266365075,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "835997615cdacbc9",
+        "name" : "Request",
+        "source" : "835997615cdacbc9.json",
+        "type" : "application/json",
+        "size" : 4285
+      }, {
+        "uid" : "e8f5e3127bb3ce71",
+        "name" : "Response",
+        "source" : "e8f5e3127bb3ce71.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609266365075,
+        "stop" : 1609266365094,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b6ba32a7a7d6cfc",
+        "name" : "Request",
+        "source" : "8b6ba32a7a7d6cfc.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "c437ad673d712bc9",
+        "name" : "Response",
+        "source" : "c437ad673d712bc9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d05283ed-5095-41b0-ace3-9a94d93a4ef8/click",
+      "time" : {
+        "start" : 1609266365101,
+        "stop" : 1609266366203,
+        "duration" : 1102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click the Google Search button"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "439528c0f604651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255523245,
+        "stop" : 1609255524847,
+        "duration" : 1602
+      }
+    }, {
+      "uid" : "7a8d27d3b61b3991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255428274,
+        "stop" : 1609255429803,
+        "duration" : 1529
+      }
+    }, {
+      "uid" : "e47a4e32db8c1019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255160331,
+        "stop" : 1609255161747,
+        "duration" : 1416
+      }
+    }, {
+      "uid" : "3c4fc4f389540829",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214669342,
+        "stop" : 1609214670740,
+        "duration" : 1398
+      }
+    }, {
+      "uid" : "5bf18c8a82469390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211098157,
+        "stop" : 1609211099450,
+        "duration" : 1293
+      }
+    }, {
+      "uid" : "9768ff631c7710a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210992646,
+        "stop" : 1609210993910,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "8f4504f65a109c6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210777799,
+        "stop" : 1609210779002,
+        "duration" : 1203
+      }
+    }, {
+      "uid" : "5d3c424c8f96459e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210767832,
+        "stop" : 1609210769032,
+        "duration" : 1200
+      }
+    }, {
+      "uid" : "66c68c60052fe020",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210573194,
+        "stop" : 1609210574546,
+        "duration" : 1352
+      }
+    }, {
+      "uid" : "2f6e0a8bdcf06dc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210563467,
+        "stop" : 1609210564790,
+        "duration" : 1323
+      }
+    }, {
+      "uid" : "998d1724a8f37eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210473462,
+        "stop" : 1609210475489,
+        "duration" : 2027
+      }
+    }, {
+      "uid" : "8428854b7f53aaf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210462357,
+        "stop" : 1609210463680,
+        "duration" : 1323
+      }
+    }, {
+      "uid" : "bdd1cd5dd9f7b3aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209291607,
+        "stop" : 1609209293317,
+        "duration" : 1710
+      }
+    }, {
+      "uid" : "d4edc5da5e5d3308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209281935,
+        "stop" : 1609209283809,
+        "duration" : 1874
+      }
+    }, {
+      "uid" : "bc18c2479f871d71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209272845,
+        "stop" : 1609209274330,
+        "duration" : 1485
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9a369bc38fe53a0.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

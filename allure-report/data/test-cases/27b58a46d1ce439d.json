@@ -1,0 +1,129 @@
+{
+  "uid" : "27b58a46d1ce439d",
+  "name" : "When I type \"The name of the w\" into the search field",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search.When I type \"The name of the w\" into the search field",
+  "historyId" : "70613b4a2e1def997e69304f9a3b449a",
+  "time" : {
+    "start" : 1609209088531,
+    "stop" : 1609209088943,
+    "duration" : 412
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609209088538,
+        "stop" : 1609209088576,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf1442a8b033661a",
+        "name" : "Request",
+        "source" : "bf1442a8b033661a.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "b18afeb1b2f01fb0",
+        "name" : "Response",
+        "source" : "b18afeb1b2f01fb0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f20b7d68-d868-46d8-a889-de42f2135573/clear",
+      "time" : {
+        "start" : 1609209088593,
+        "stop" : 1609209088667,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/f20b7d68-d868-46d8-a889-de42f2135573/value",
+      "time" : {
+        "start" : 1609209088672,
+        "stop" : 1609209088943,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20f806862429ca87",
+        "name" : "Request",
+        "source" : "20f806862429ca87.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I type \"The name of the w\" into the search field"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27b58a46d1ce439d.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

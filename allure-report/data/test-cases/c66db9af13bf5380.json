@@ -1,0 +1,129 @@
+{
+  "uid" : "c66db9af13bf5380",
+  "name" : "When I type \"The name of the wind\" into the search field",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search.When I type \"The name of the wind\" into the search field",
+  "historyId" : "d1afe9c60f1d41982939e8db32b7496a",
+  "time" : {
+    "start" : 1609210473128,
+    "stop" : 1609210473462,
+    "duration" : 334
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609210473129,
+        "stop" : 1609210473155,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb15c677c52e09cc",
+        "name" : "Request",
+        "source" : "fb15c677c52e09cc.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "681e8691a0373e48",
+        "name" : "Response",
+        "source" : "681e8691a0373e48.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c2fb5edc-2e45-4c71-9e4e-2a2f788956f2/clear",
+      "time" : {
+        "start" : 1609210473159,
+        "stop" : 1609210473223,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/c2fb5edc-2e45-4c71-9e4e-2a2f788956f2/value",
+      "time" : {
+        "start" : 1609210473224,
+        "stop" : 1609210473462,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57c149feeea518e1",
+        "name" : "Request",
+        "source" : "57c149feeea518e1.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I type \"The name of the wind\" into the search field"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c66db9af13bf5380.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

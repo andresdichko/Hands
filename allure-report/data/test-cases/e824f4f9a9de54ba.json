@@ -1,0 +1,129 @@
+{
+  "uid" : "e824f4f9a9de54ba",
+  "name" : "When I type \"The name of the w\" into the search field",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions - Error.When I type \"The name of the w\" into the search field",
+  "historyId" : "cffcdc10cc904a6bec0bd094c0fc89f9",
+  "time" : {
+    "start" : 1609211077980,
+    "stop" : 1609211078265,
+    "duration" : 285
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609211077981,
+        "stop" : 1609211078000,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7975d403f81a9a90",
+        "name" : "Request",
+        "source" : "7975d403f81a9a90.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "ad196d272d7bb8b4",
+        "name" : "Response",
+        "source" : "ad196d272d7bb8b4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c142e1f6-1c7e-407f-aaf6-cc71d4095031/clear",
+      "time" : {
+        "start" : 1609211078005,
+        "stop" : 1609211078078,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/c142e1f6-1c7e-407f-aaf6-cc71d4095031/value",
+      "time" : {
+        "start" : 1609211078080,
+        "stop" : 1609211078264,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be5ae49d903a48e4",
+        "name" : "Request",
+        "source" : "be5ae49d903a48e4.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I type \"The name of the w\" into the search field"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e824f4f9a9de54ba.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

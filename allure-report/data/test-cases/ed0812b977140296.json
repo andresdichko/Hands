@@ -1,0 +1,249 @@
+{
+  "uid" : "ed0812b977140296",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search.Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "historyId" : "87eac53df1537308984b3f5bad386724",
+  "time" : {
+    "start" : 1609266363676,
+    "stop" : 1609266363692,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1609266363677,
+        "stop" : 1609266363692,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "858f5e49c0d27b66",
+        "name" : "Response",
+        "source" : "858f5e49c0d27b66.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I go to the \"Patrick Rothfuss - The Books\" page"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cba4e179063bd2fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255522138,
+        "stop" : 1609255522153,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "2429d4687ba42996",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255427383,
+        "stop" : 1609255427383,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f1fc9416143f6cee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255159309,
+        "stop" : 1609255159328,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "4804b4badef7bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214668329,
+        "stop" : 1609214668344,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "5e1948d4f3539c6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211096811,
+        "stop" : 1609211096826,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "5ea4b635c8d80d49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210991575,
+        "stop" : 1609210991587,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "31940922ebbed382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210785407,
+        "stop" : 1609210785421,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "d9ce8eeaa5d53bdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210776571,
+        "stop" : 1609210776651,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "b56ca72fb88bb8d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210766271,
+        "stop" : 1609210766284,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "27617ba8d803cb07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210580345,
+        "stop" : 1609210580422,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "3594da2db8aa9fb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210571957,
+        "stop" : 1609210572051,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "30ddb6b262e343de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210561975,
+        "stop" : 1609210561991,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "3fb24b0e29dff925",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609210481568,
+        "stop" : 1609210481568,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2678d58c1e5057c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210472293,
+        "stop" : 1609210472377,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "5cc47422eec524ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210460898,
+        "stop" : 1609210460910,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "27181ee2ed8de00d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209300187,
+        "stop" : 1609209300249,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "82b8aa6b78a045b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209290515,
+        "stop" : 1609209290590,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "a4dab385fb63c61e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209281007,
+        "stop" : 1609209281023,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "555d33287d788a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209271561,
+        "stop" : 1609209271576,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "fb3457adc3fc8468",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609209143853,
+        "stop" : 1609209143854,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed0812b977140296.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

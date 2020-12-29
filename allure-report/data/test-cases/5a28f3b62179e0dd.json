@@ -1,0 +1,108 @@
+{
+  "uid" : "5a28f3b62179e0dd",
+  "name" : "When I click on the first result link",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions.When I click on the first result link",
+  "historyId" : "eef48978f1e8252b0868a1761fa87128",
+  "time" : {
+    "start" : 1609211090248,
+    "stop" : 1609211091330,
+    "duration" : 1082
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609211090248,
+        "stop" : 1609211090267,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a7094f6e65a5dd7",
+        "name" : "Request",
+        "source" : "4a7094f6e65a5dd7.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "69706600221bf0e7",
+        "name" : "Response",
+        "source" : "69706600221bf0e7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/61faba5e-eb2d-4d03-a1ba-e5fdad9da3a8/click",
+      "time" : {
+        "start" : 1609211090270,
+        "stop" : 1609211091329,
+        "duration" : 1059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the first result link"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a28f3b62179e0dd.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

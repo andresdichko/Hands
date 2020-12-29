@@ -1,0 +1,106 @@
+{
+  "uid" : "701b5aa05b4953ca",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "fullName" : "Google Homepage Search: User can search with Google Search - Error.Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "historyId" : "31676f7088f357cc1cb9b0928342537",
+  "time" : {
+    "start" : 1609266342471,
+    "stop" : 1609266342472,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I go to the \"Patrick Rothfuss - The Books\" page"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48c7e7bd2abaa461",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255502120,
+        "stop" : 1609255502120,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "752062a9f7711a91",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255387583,
+        "stop" : 1609255387583,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b3536965c0e8f42",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255137271,
+        "stop" : 1609255137272,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "17ad4c319a617855",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609214638312,
+        "stop" : 1609214638312,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "886d9523dcb9a4b4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609211076510,
+        "stop" : 1609211076510,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e03ecec42ccae45d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609210969438,
+        "stop" : 1609210969438,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "701b5aa05b4953ca.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

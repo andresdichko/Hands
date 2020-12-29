@@ -1,0 +1,129 @@
+{
+  "uid" : "119c9c9bbd297647",
+  "name" : "When I type \"The name of the wind\" into the search field",
+  "fullName" : "Google Homepage Search: User can search with Google Search - Error.When I type \"The name of the wind\" into the search field",
+  "historyId" : "5ad601a2db117489273af43b2c94c039",
+  "time" : {
+    "start" : 1609214621984,
+    "stop" : 1609214622357,
+    "duration" : 373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609214621987,
+        "stop" : 1609214622026,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1a3e8cb9d60a9b5",
+        "name" : "Request",
+        "source" : "e1a3e8cb9d60a9b5.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "8bab02fa76144763",
+        "name" : "Response",
+        "source" : "8bab02fa76144763.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/7013f472-1585-4ef9-ad01-f17eebe5d36a/clear",
+      "time" : {
+        "start" : 1609214622043,
+        "stop" : 1609214622125,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/7013f472-1585-4ef9-ad01-f17eebe5d36a/value",
+      "time" : {
+        "start" : 1609214622132,
+        "stop" : 1609214622356,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b77b3b844d9b9d9",
+        "name" : "Request",
+        "source" : "9b77b3b844d9b9d9.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I type \"The name of the wind\" into the search field"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "119c9c9bbd297647.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

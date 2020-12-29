@@ -1,0 +1,158 @@
+{
+  "uid" : "20d7a28a27c114c4",
+  "name" : "When I click on the first result link",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions.When I click on the first result link",
+  "historyId" : "eef48978f1e8252b0868a1761fa87128",
+  "time" : {
+    "start" : 1609266356300,
+    "stop" : 1609266357329,
+    "duration" : 1029
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609266356301,
+        "stop" : 1609266356320,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "553bd8c0f404e04f",
+        "name" : "Request",
+        "source" : "553bd8c0f404e04f.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "a256213b47526c69",
+        "name" : "Response",
+        "source" : "a256213b47526c69.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/865afac0-0f8d-41ca-b05f-cdcfa508c081/click",
+      "time" : {
+        "start" : 1609266356324,
+        "stop" : 1609266357328,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the first result link"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9831ab612299023a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255516255,
+        "stop" : 1609255517437,
+        "duration" : 1182
+      }
+    }, {
+      "uid" : "888cd047673c4abf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255402884,
+        "stop" : 1609255403920,
+        "duration" : 1036
+      }
+    }, {
+      "uid" : "9ddeb0ee2ebff776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255151642,
+        "stop" : 1609255153149,
+        "duration" : 1507
+      }
+    }, {
+      "uid" : "e29a4a2c3233edb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214661107,
+        "stop" : 1609214662656,
+        "duration" : 1549
+      }
+    }, {
+      "uid" : "5a28f3b62179e0dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211090248,
+        "stop" : 1609211091330,
+        "duration" : 1082
+      }
+    }, {
+      "uid" : "813378234f8810ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210984713,
+        "stop" : 1609210986052,
+        "duration" : 1339
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20d7a28a27c114c4.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

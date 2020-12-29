@@ -1,0 +1,179 @@
+{
+  "uid" : "26d4d71321ea1ed",
+  "name" : "Given I am on the homepage",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions.Given I am on the homepage",
+  "historyId" : "fe57b7ad00c4fd5480ca642d3881e524",
+  "time" : {
+    "start" : 1609266353171,
+    "stop" : 1609266353883,
+    "duration" : 712
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1609266353172,
+        "stop" : 1609266353182,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "197e19d863c5931",
+        "name" : "Response",
+        "source" : "197e19d863c5931.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1609266353183,
+        "stop" : 1609266353867,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6b544c816658595",
+        "name" : "Request",
+        "source" : "b6b544c816658595.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1609266353868,
+        "stop" : 1609266353882,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "138a0c4cd4f272c9",
+        "name" : "Response",
+        "source" : "138a0c4cd4f272c9.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the homepage"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7121881059e97756",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255512529,
+        "stop" : 1609255513292,
+        "duration" : 763
+      }
+    }, {
+      "uid" : "4270bfe670128f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255399201,
+        "stop" : 1609255399924,
+        "duration" : 723
+      }
+    }, {
+      "uid" : "fed24254e9accbbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255147818,
+        "stop" : 1609255148540,
+        "duration" : 722
+      }
+    }, {
+      "uid" : "31bcab58d93585a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214657846,
+        "stop" : 1609214658524,
+        "duration" : 678
+      }
+    }, {
+      "uid" : "3f39b0c9188928c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211087154,
+        "stop" : 1609211087858,
+        "duration" : 704
+      }
+    }, {
+      "uid" : "86326fb48eba67c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210981037,
+        "stop" : 1609210981792,
+        "duration" : 755
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26d4d71321ea1ed.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

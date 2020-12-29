@@ -1,0 +1,108 @@
+{
+  "uid" : "2e6797bd8a2ab9b9",
+  "name" : "When I click on \"The Books - Patrick Rothfuss\" page",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search.When I click on \"The Books - Patrick Rothfuss\" page",
+  "historyId" : "3f4e16d70d9a5fe2d076ae51fbc3eb3b",
+  "time" : {
+    "start" : 1609210994981,
+    "stop" : 1609210996264,
+    "duration" : 1283
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609210994981,
+        "stop" : 1609210995020,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e4340d6f2ed1069",
+        "name" : "Request",
+        "source" : "3e4340d6f2ed1069.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "5cee2c6c4b883bed",
+        "name" : "Response",
+        "source" : "5cee2c6c4b883bed.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c826c5e5-3760-4c1c-b51b-ad93eb1dc51d/click",
+      "time" : {
+        "start" : 1609210995026,
+        "stop" : 1609210996264,
+        "duration" : 1238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on \"The Books - Patrick Rothfuss\" page"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e6797bd8a2ab9b9.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

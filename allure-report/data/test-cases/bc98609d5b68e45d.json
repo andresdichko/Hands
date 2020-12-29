@@ -1,0 +1,137 @@
+{
+  "uid" : "bc98609d5b68e45d",
+  "name" : "Then I go to the \"The Name of the Wind - Wikipedia\" page",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions.Then I go to the \"The Name of the Wind - Wikipedia\" page",
+  "historyId" : "3fd6d9c7ad6cebe5c2cdcd8032de0b35",
+  "time" : {
+    "start" : 1609266357329,
+    "stop" : 1609266357432,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1609266357329,
+        "stop" : 1609266357431,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad5b30341ac592a6",
+        "name" : "Response",
+        "source" : "ad5b30341ac592a6.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I go to the \"The Name of the Wind - Wikipedia\" page"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "826a823917e052bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255517437,
+        "stop" : 1609255517504,
+        "duration" : 67
+      }
+    }, {
+      "uid" : "d2889c9b04200ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255403920,
+        "stop" : 1609255403964,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "52c17d8e37711d6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255153149,
+        "stop" : 1609255153195,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "879a0c27f148cd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214662656,
+        "stop" : 1609214662728,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "8a298e0362a70f36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211091330,
+        "stop" : 1609211091458,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "24af83071228ad76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210986052,
+        "stop" : 1609210986090,
+        "duration" : 38
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc98609d5b68e45d.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

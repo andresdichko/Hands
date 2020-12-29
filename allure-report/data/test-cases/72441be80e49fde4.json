@@ -1,0 +1,56 @@
+{
+  "uid" : "72441be80e49fde4",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions - Error.Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "historyId" : "2c14f2d34d4e65a7324ba522a6be7b30",
+  "time" : {
+    "start" : 1609210974376,
+    "stop" : 1609210974377,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I go to the \"Patrick Rothfuss - The Books\" page"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72441be80e49fde4.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

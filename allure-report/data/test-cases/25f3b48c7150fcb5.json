@@ -1,0 +1,251 @@
+{
+  "uid" : "25f3b48c7150fcb5",
+  "name" : "When I type \"The name of the wind\" into the search field",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search.When I type \"The name of the wind\" into the search field",
+  "historyId" : "d1afe9c60f1d41982939e8db32b7496a",
+  "time" : {
+    "start" : 1609266364412,
+    "stop" : 1609266364831,
+    "duration" : 419
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609266364413,
+        "stop" : 1609266364444,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fbbdfe2222b7c44",
+        "name" : "Request",
+        "source" : "5fbbdfe2222b7c44.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "3358ab92e827c246",
+        "name" : "Response",
+        "source" : "3358ab92e827c246.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/1870cd7c-91d8-4fec-a7e3-47b551e205d9/clear",
+      "time" : {
+        "start" : 1609266364453,
+        "stop" : 1609266364512,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/1870cd7c-91d8-4fec-a7e3-47b551e205d9/value",
+      "time" : {
+        "start" : 1609266364558,
+        "stop" : 1609266364830,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3220709a79162812",
+        "name" : "Request",
+        "source" : "3220709a79162812.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I type \"The name of the wind\" into the search field"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c197e4971814cf21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255522853,
+        "stop" : 1609255523245,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "64716b8db76fe9b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255427912,
+        "stop" : 1609255428274,
+        "duration" : 362
+      }
+    }, {
+      "uid" : "3714477afbab3699",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255159974,
+        "stop" : 1609255160331,
+        "duration" : 357
+      }
+    }, {
+      "uid" : "bb5c64954858cbe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214668945,
+        "stop" : 1609214669341,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "a6704000ba4ee9d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211097430,
+        "stop" : 1609211098157,
+        "duration" : 727
+      }
+    }, {
+      "uid" : "93b760c84e6df92b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210992283,
+        "stop" : 1609210992646,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "dc38e8e1480c050a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210777331,
+        "stop" : 1609210777799,
+        "duration" : 468
+      }
+    }, {
+      "uid" : "78a9992df738279d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210767362,
+        "stop" : 1609210767832,
+        "duration" : 470
+      }
+    }, {
+      "uid" : "30ce804c7de65587",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210572780,
+        "stop" : 1609210573194,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "869ace1b0396cc0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210563076,
+        "stop" : 1609210563467,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "c66db9af13bf5380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210473128,
+        "stop" : 1609210473462,
+        "duration" : 334
+      }
+    }, {
+      "uid" : "8a787e590cdf01bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210462009,
+        "stop" : 1609210462356,
+        "duration" : 347
+      }
+    }, {
+      "uid" : "749cf98a93213ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209291255,
+        "stop" : 1609209291606,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "20e97a3189fdfda9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209281663,
+        "stop" : 1609209281935,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "641db5ee07720432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209272491,
+        "stop" : 1609209272845,
+        "duration" : 354
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25f3b48c7150fcb5.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "ae45cebbad0e5893",
+  "name" : "And the first result is \"The Name of the Wind - Patrick Rothfuss\"",
+  "fullName" : "Google Homepage Search: User can search with Google Search - Error.And the first result is \"The Name of the Wind - Patrick Rothfuss\"",
+  "historyId" : "486852fbc19e04484dd30d9659c4309b",
+  "time" : {
+    "start" : 1609214623866,
+    "stop" : 1609214638311,
+    "duration" : 14445
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'The Name of the Wind - Wikipedia'\n                - 'The Name of the Wind - Patrick Rothfuss'\n                                          ^",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'The Name of the Wind - Wikipedia'\n                - 'The Name of the Wind - Patrick Rothfuss'\n                                          ^\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:51:10)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'The Name of the Wind - Wikipedia'\n                - 'The Name of the Wind - Patrick Rothfuss'\n                                          ^",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'The Name of the Wind - Wikipedia'\n                - 'The Name of the Wind - Patrick Rothfuss'\n                                          ^\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:51:10)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609214623868,
+        "stop" : 1609214623946,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "639b91b2c259fff0",
+        "name" : "Request",
+        "source" : "639b91b2c259fff0.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "19b7211a2aaf968e",
+        "name" : "Response",
+        "source" : "19b7211a2aaf968e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1609214623957,
+        "stop" : 1609214623994,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ecd3fced8c0f5da",
+        "name" : "Request",
+        "source" : "5ecd3fced8c0f5da.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "622db7fcab33b92e",
+        "name" : "Response",
+        "source" : "622db7fcab33b92e.json",
+        "type" : "application/json",
+        "size" : 821
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609214624020,
+        "stop" : 1609214624042,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "decc3ed6307d72ee",
+        "name" : "Request",
+        "source" : "decc3ed6307d72ee.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "723bfe1df1f9b5ab",
+        "name" : "Response",
+        "source" : "723bfe1df1f9b5ab.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/a0b7841c-a21b-4f50-a520-7c62ab846fe5/text",
+      "time" : {
+        "start" : 1609214624055,
+        "stop" : 1609214624103,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bec8c2f06c518ce4",
+        "name" : "Response",
+        "source" : "bec8c2f06c518ce4.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1609214624106,
+        "stop" : 1609214638308,
+        "duration" : 14202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f833df52607866e",
+        "name" : "Screenshot",
+        "source" : "5f833df52607866e.png",
+        "type" : "image/png",
+        "size" : 283890
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the first result is \"The Name of the Wind - Patrick Rothfuss\""
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search with Google Search - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae45cebbad0e5893.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

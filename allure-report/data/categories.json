@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'The Name of the Wind - Wikipedia'\n                - 'The Name of the Wind - Patrick Rothfuss'\n                                          ^",
+      "children" : [ {
+        "name" : "And the first result is \"The Name of the Wind - Patrick Rothfuss\"",
+        "uid" : "ec6dda59735981dc",
+        "parentUid" : "a44627e3497c8d7eda6abf067824e171",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609266340354,
+          "stop" : 1609266342470,
+          "duration" : 2116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.88" ]
+      }, {
+        "name" : "And the first result is \"The Name of the Wind - Patrick Rothfuss\"",
+        "uid" : "ad314adb6eefc447",
+        "parentUid" : "a44627e3497c8d7eda6abf067824e171",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609266346091,
+          "stop" : 1609266347437,
+          "duration" : 1346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.88" ]
+      } ],
+      "uid" : "a44627e3497c8d7eda6abf067824e171"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

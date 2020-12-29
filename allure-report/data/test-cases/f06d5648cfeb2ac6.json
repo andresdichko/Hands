@@ -1,0 +1,209 @@
+{
+  "uid" : "f06d5648cfeb2ac6",
+  "name" : "Then I go to the search results page",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search.Then I go to the search results page",
+  "historyId" : "f7c92c46cb5494d1a3c36e16b426c02d",
+  "time" : {
+    "start" : 1609266366204,
+    "stop" : 1609266366217,
+    "duration" : 13
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1609266366205,
+        "stop" : 1609266366216,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66c382b8ef67d62d",
+        "name" : "Response",
+        "source" : "66c382b8ef67d62d.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I go to the search results page"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8899bf0640301eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255524847,
+        "stop" : 1609255524863,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "8f88d07ef13c7811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255429803,
+        "stop" : 1609255429818,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "4f200d6aab41d0ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255161747,
+        "stop" : 1609255161921,
+        "duration" : 174
+      }
+    }, {
+      "uid" : "75eaa1ba827ba179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214670740,
+        "stop" : 1609214670811,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "82b7e2849bba299a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211099450,
+        "stop" : 1609211099463,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "f4adeba5e4cf2b01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210993911,
+        "stop" : 1609210993929,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "7f0170c4608ef62c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210779002,
+        "stop" : 1609210779222,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "2985066bab20a67e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210769032,
+        "stop" : 1609210769052,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "cc86bb89b0164ea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210574547,
+        "stop" : 1609210574720,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "f04a5aaf30a09c7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210564790,
+        "stop" : 1609210564811,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "dae44782851ff541",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210475490,
+        "stop" : 1609210475696,
+        "duration" : 206
+      }
+    }, {
+      "uid" : "51e4190e5e8c5b75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210463681,
+        "stop" : 1609210463692,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "a3106cb655294b07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209293317,
+        "stop" : 1609209293509,
+        "duration" : 192
+      }
+    }, {
+      "uid" : "8f69b7a3681535a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209283809,
+        "stop" : 1609209283823,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "d49ac2ad2cd3e9d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209274330,
+        "stop" : 1609209274342,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f06d5648cfeb2ac6.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h3[@class=\"LC20lb DKV0Md\"]/span[text()=\"The Books - Patrick Rothfuss\"]\"}\n  (Session info: chrome=87.0.4280.88)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0123ECE3+3337443]\n\tOrdinal0 [0x0111F041+2158657]\n\tOrdinal0 [0x00FA6FA8+618408]\n\tOrdinal0 [0x00F2BFF0+114672]\n\tOrdinal0 [0x00F4FB92+261010]\n\tOrdinal0 [0x00F419AA+203178]\n\tOrdinal0 [0x00F4E4A9+255145]\n\tOrdinal0 [0x00F4181B+202779]\n\tOrdinal0 [0x00F23D74+81268]\n\tOrdinal0 [0x00F24D6E+85358]\n\tOrdinal0 [0x00F24CF9+85241]\n\tOrdinal0 [0x01136F2C+2256684]\n\tGetHandleVerifier [0x013C2FAC+1478332]\n\tGetHandleVerifier [0x013C2AFD+1477133]\n\tGetHandleVerifier [0x013CAAD8+1509864]\n\tGetHandleVerifier [0x013C369E+1480110]\n\tOrdinal0 [0x0112D6BD+2217661]\n\tOrdinal0 [0x011389AB+2263467]\n\tOrdinal0 [0x01138AEF+2263791]\n\tOrdinal0 [0x0114D363+2347875]\n\tBaseThreadInitThunk [0x7571FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778975F4+228]\n\tRtlGetAppContainerNamedObjectPath [0x778975C4+180]\n"
+}

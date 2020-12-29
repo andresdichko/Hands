@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "420dcd155a1427bd25cc13aec5584cb8",
+    "name" : "Google Homepage Search: User can search by using the suggestions - Error",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "abaf9f2e2b3ff8de52aded0b95d18104",
+    "name" : "Google Homepage Search: User can search with Google Search - Error",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "e0626a6c78ca3673d526de3e048a8d76",
+    "name" : "Google Homepage Search: User can search by using the suggestions",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "b970b36dbb6263f47309fd5025e0d89a",
+    "name" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "eb2862ad9be1b19072b3261b8e52b6ac",
+    "name" : "Google Homepage Search: User can search with \"Google Search\"",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "a902f2889f76f06f2dac17ae4378266f",
+    "name" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with Google Search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

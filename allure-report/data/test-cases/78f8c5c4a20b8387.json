@@ -1,0 +1,259 @@
+{
+  "uid" : "78f8c5c4a20b8387",
+  "name" : "And I click on the first suggestion in the list",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search.And I click on the first suggestion in the list",
+  "historyId" : "f3d7f976aab7ddc3ea6639f677c40d52",
+  "time" : {
+    "start" : 1609210478687,
+    "stop" : 1609210481564,
+    "duration" : 2877
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "read ECONNRESET",
+  "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\got\\dist\\source\\core\\index.js:953:111)\n                    at ClientRequest.origin.emit (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)\n                    at Browser.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.isDisplayed (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\commands\\element\\isDisplayed.js:21:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:58:34)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "read ECONNRESET",
+    "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\got\\dist\\source\\core\\index.js:953:111)\n                    at ClientRequest.origin.emit (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)\n                    at Browser.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.isDisplayed (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\commands\\element\\isDisplayed.js:21:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:58:34)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609210478688,
+        "stop" : 1609210478713,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd56df530ee3ee43",
+        "name" : "Request",
+        "source" : "bd56df530ee3ee43.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "a3f3c51d9f2a1029",
+        "name" : "Response",
+        "source" : "a3f3c51d9f2a1029.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1609210478717,
+        "stop" : 1609210478762,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56a73933cb3e8a0f",
+        "name" : "Request",
+        "source" : "56a73933cb3e8a0f.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "19cd4f7d35a4a0e5",
+        "name" : "Response",
+        "source" : "19cd4f7d35a4a0e5.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609210478767,
+        "stop" : 1609210478787,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c2ce215f7107ba2",
+        "name" : "Request",
+        "source" : "6c2ce215f7107ba2.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "1b2f4d592602157f",
+        "name" : "Response",
+        "source" : "1b2f4d592602157f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1609210478792,
+        "stop" : 1609210478840,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cee8524ec9d61742",
+        "name" : "Request",
+        "source" : "cee8524ec9d61742.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "fa8f5fe4942347e1",
+        "name" : "Response",
+        "source" : "fa8f5fe4942347e1.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609210478840,
+        "stop" : 1609210478860,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e00952ff8297a4b",
+        "name" : "Request",
+        "source" : "6e00952ff8297a4b.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "88222b7522b66e5f",
+        "name" : "Response",
+        "source" : "88222b7522b66e5f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1609210478864,
+        "stop" : 1609210481564,
+        "duration" : 2700
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\got\\dist\\source\\core\\index.js:953:111)\n                    at ClientRequest.origin.emit (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)\n                    at Browser.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.isDisplayed (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\commands\\element\\isDisplayed.js:21:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:58:34)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1609210479520,
+          "stop" : 1609210481564,
+          "duration" : 2044
+        },
+        "status" : "broken",
+        "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\got\\dist\\source\\core\\index.js:953:111)\n                    at ClientRequest.origin.emit (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)\n                    at Browser.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.isDisplayed (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\commands\\element\\isDisplayed.js:21:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:58:34)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+        "steps" : [ {
+          "name" : "DELETE /session/:sessionId",
+          "time" : {
+            "start" : 1609210479695,
+            "stop" : 1609210481564,
+            "duration" : 1869
+          },
+          "status" : "broken",
+          "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\got\\dist\\source\\core\\index.js:953:111)\n                    at ClientRequest.origin.emit (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)\n                    at Browser.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.isDisplayed (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\commands\\element\\isDisplayed.js:21:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at World.<anonymous> (C:\\Users\\andre\\Desktop\\prueba\\features\\step-definitions\\steps.js:58:34)\n                    at World.executeSync (C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\andre\\Desktop\\prueba\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : true,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "48d14805ddd5f8e4",
+        "name" : "Request",
+        "source" : "48d14805ddd5f8e4.json",
+        "type" : "application/json",
+        "size" : 5893
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 11,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on the first suggestion in the list"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78f8c5c4a20b8387.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

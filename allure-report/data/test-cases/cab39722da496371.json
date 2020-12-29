@@ -1,0 +1,168 @@
+{
+  "uid" : "cab39722da496371",
+  "name" : "And the first result is \"The Name of the Wind - Wikipedia\"",
+  "fullName" : "Google Homepage Search: User can search with \"Google Search\".And the first result is \"The Name of the Wind - Wikipedia\"",
+  "historyId" : "988b6cceb6ac517e3ea4d284e8418076",
+  "time" : {
+    "start" : 1609255509491,
+    "stop" : 1609255510325,
+    "duration" : 834
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609255509492,
+        "stop" : 1609255509721,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7cbc25a9472dcef",
+        "name" : "Request",
+        "source" : "e7cbc25a9472dcef.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "1d290c78a4839661",
+        "name" : "Response",
+        "source" : "1d290c78a4839661.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1609255509726,
+        "stop" : 1609255510106,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a36449ce29cb0bee",
+        "name" : "Request",
+        "source" : "a36449ce29cb0bee.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "65f1815a62406334",
+        "name" : "Response",
+        "source" : "65f1815a62406334.json",
+        "type" : "application/json",
+        "size" : 1094
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609255510125,
+        "stop" : 1609255510291,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "841f982b0ec8238",
+        "name" : "Request",
+        "source" : "841f982b0ec8238.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "b2a50673c0ffcb9",
+        "name" : "Response",
+        "source" : "b2a50673c0ffcb9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/c153d43e-b3da-45fe-9b5d-18ce6aaa31e6/text",
+      "time" : {
+        "start" : 1609255510294,
+        "stop" : 1609255510324,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c97b9f36d793126",
+        "name" : "Response",
+        "source" : "3c97b9f36d793126.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search with \"Google Search\""
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search with \"Google Search\""
+  }, {
+    "name" : "testMethod",
+    "value" : "And the first result is \"The Name of the Wind - Wikipedia\""
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search with \"Google Search\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cab39722da496371.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

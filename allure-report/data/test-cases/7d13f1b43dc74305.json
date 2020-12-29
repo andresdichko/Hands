@@ -1,0 +1,106 @@
+{
+  "uid" : "7d13f1b43dc74305",
+  "name" : "When I click on the first result link",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions - Error.When I click on the first result link",
+  "historyId" : "3f9e08948ecac6e032bad8e7aeac0be0",
+  "time" : {
+    "start" : 1609266347437,
+    "stop" : 1609266347437,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the first result link"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "beaf7b28baebc146",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255506668,
+        "stop" : 1609255506668,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "56dc85e3ee2405b9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255392625,
+        "stop" : 1609255392625,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4731f6847acd6d30",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609255141751,
+        "stop" : 1609255141751,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c7c0eb6b9606a7a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609214651911,
+        "stop" : 1609214651911,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1776789b7b661ddf",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609211081361,
+        "stop" : 1609211081362,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9c0db3c55d5efde7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1609210974376,
+        "stop" : 1609210974376,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d13f1b43dc74305.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

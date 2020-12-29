@@ -1,0 +1,174 @@
+{
+  "uid" : "b28d93f56ff031f4",
+  "name" : "And the suggestions list is displayed",
+  "fullName" : "Google Homepage Search: User can search by using the suggestions - Error.And the suggestions list is displayed",
+  "historyId" : "17625821614b1aad029177ac493052ad",
+  "time" : {
+    "start" : 1609211078265,
+    "stop" : 1609211078502,
+    "duration" : 237
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609211078266,
+        "stop" : 1609211078362,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d32e6528353489d",
+        "name" : "Request",
+        "source" : "4d32e6528353489d.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "f7f106e61499001e",
+        "name" : "Response",
+        "source" : "f7f106e61499001e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1609211078368,
+        "stop" : 1609211078438,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5aa51460b5f1b938",
+        "name" : "Request",
+        "source" : "5aa51460b5f1b938.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "8f154a425cb35e18",
+        "name" : "Response",
+        "source" : "8f154a425cb35e18.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609211078460,
+        "stop" : 1609211078478,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b48f542c4031b59",
+        "name" : "Request",
+        "source" : "3b48f542c4031b59.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "29e2910d038af264",
+        "name" : "Response",
+        "source" : "29e2910d038af264.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1609211078482,
+        "stop" : 1609211078501,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "684245884978a3b2",
+        "name" : "Request",
+        "source" : "684245884978a3b2.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "a35afe3686e97c67",
+        "name" : "Response",
+        "source" : "a35afe3686e97c67.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the suggestions list is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search by using the suggestions - Error"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b28d93f56ff031f4.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

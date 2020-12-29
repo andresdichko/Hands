@@ -1,0 +1,336 @@
+{
+  "uid" : "60d5b2ed1018f0a8",
+  "name" : "And the suggestions list is displayed",
+  "fullName" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search.And the suggestions list is displayed",
+  "historyId" : "d6d8afc488162cbff0eb2a14706a5d2",
+  "time" : {
+    "start" : 1609266358591,
+    "stop" : 1609266358816,
+    "duration" : 225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609266358591,
+        "stop" : 1609266358620,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a71125bd35186769",
+        "name" : "Request",
+        "source" : "a71125bd35186769.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "7a1263bbf36dfb91",
+        "name" : "Response",
+        "source" : "7a1263bbf36dfb91.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1609266358622,
+        "stop" : 1609266358713,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d37e63b9ca6996a",
+        "name" : "Request",
+        "source" : "d37e63b9ca6996a.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "82b595b5f8b3b2cc",
+        "name" : "Response",
+        "source" : "82b595b5f8b3b2cc.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1609266358717,
+        "stop" : 1609266358786,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d2dadc39e83a4be",
+        "name" : "Request",
+        "source" : "1d2dadc39e83a4be.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "8491765dbc1469f8",
+        "name" : "Response",
+        "source" : "8491765dbc1469f8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1609266358790,
+        "stop" : 1609266358815,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99776f82c7235afd",
+        "name" : "Request",
+        "source" : "99776f82c7235afd.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "11cc3bc13931779c",
+        "name" : "Response",
+        "source" : "11cc3bc13931779c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the suggestions list is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Google Homepage Search: User can search The Books - Patrick Rothfuss with suggestions in Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fdc46fdda9a8aad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255518394,
+        "stop" : 1609255518586,
+        "duration" : 192
+      }
+    }, {
+      "uid" : "f43d4ab89b9672ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255404925,
+        "stop" : 1609255405158,
+        "duration" : 233
+      }
+    }, {
+      "uid" : "ca903b4d1f9eb0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609255154143,
+        "stop" : 1609255154233,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "39e83a8097edf698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609214663756,
+        "stop" : 1609214664056,
+        "duration" : 300
+      }
+    }, {
+      "uid" : "7de1e6282cc57025",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609211092708,
+        "stop" : 1609211092904,
+        "duration" : 196
+      }
+    }, {
+      "uid" : "c5065627e167d9e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210987211,
+        "stop" : 1609210987558,
+        "duration" : 347
+      }
+    }, {
+      "uid" : "ed328bc9910e31c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210782029,
+        "stop" : 1609210782163,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "79e54b35d3398ffa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210773117,
+        "stop" : 1609210773320,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "3041b51e65ce5b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210761235,
+        "stop" : 1609210761581,
+        "duration" : 346
+      }
+    }, {
+      "uid" : "30253c0c27c6f961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210577444,
+        "stop" : 1609210577674,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "f8617ea08276c848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210568369,
+        "stop" : 1609210568790,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "80a09cfdd8df131d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210557321,
+        "stop" : 1609210557779,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "12f47142892beae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210478467,
+        "stop" : 1609210478687,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "71f0ad5320c122d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210467955,
+        "stop" : 1609210468214,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "beb70ddeff9a8594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609210456521,
+        "stop" : 1609210456832,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "f4cb411fbccca195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209296306,
+        "stop" : 1609209296538,
+        "duration" : 232
+      }
+    }, {
+      "uid" : "a1b21ec7c01e913",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209286778,
+        "stop" : 1609209286992,
+        "duration" : 214
+      }
+    }, {
+      "uid" : "75031421dc2e3c94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209277682,
+        "stop" : 1609209277927,
+        "duration" : 245
+      }
+    }, {
+      "uid" : "c48d6ecbb83ab5c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209264540,
+        "stop" : 1609209265119,
+        "duration" : 579
+      }
+    }, {
+      "uid" : "c42bcfd7da4d5f4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609209088943,
+        "stop" : 1609209089218,
+        "duration" : 275
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60d5b2ed1018f0a8.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

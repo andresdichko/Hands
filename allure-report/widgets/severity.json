@@ -1,0 +1,511 @@
+[ {
+  "uid" : "8fabe006f0feb6f3",
+  "name" : "When I type \"The name of the w\" into the search field",
+  "time" : {
+    "start" : 1609266343900,
+    "stop" : 1609266344284,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60d5b2ed1018f0a8",
+  "name" : "And the suggestions list is displayed",
+  "time" : {
+    "start" : 1609266358591,
+    "stop" : 1609266358816,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0f04e008c4d928f",
+  "name" : "When I click on the first result link",
+  "time" : {
+    "start" : 1609266342470,
+    "stop" : 1609266342471,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ec6dda59735981dc",
+  "name" : "And the first result is \"The Name of the Wind - Patrick Rothfuss\"",
+  "time" : {
+    "start" : 1609266340354,
+    "stop" : 1609266342470,
+    "duration" : 2116
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "341fa129482aff46",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1609266353137,
+    "stop" : 1609266353138,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ccefd5e533bc9c5",
+  "name" : "And I click on the first suggestion in the list",
+  "time" : {
+    "start" : 1609266354380,
+    "stop" : 1609266355570,
+    "duration" : 1190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "701b5aa05b4953ca",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "time" : {
+    "start" : 1609266342471,
+    "stop" : 1609266342472,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b26e09e023542b1f",
+  "name" : "Then I go to the search results page",
+  "time" : {
+    "start" : 1609266360002,
+    "stop" : 1609266360034,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7710a37700ee495",
+  "name" : "When I type \"The name of the w\" into the search field",
+  "time" : {
+    "start" : 1609266358298,
+    "stop" : 1609266358590,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20d7a28a27c114c4",
+  "name" : "When I click on the first result link",
+  "time" : {
+    "start" : 1609266356300,
+    "stop" : 1609266357329,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "165814c2c97c17aa",
+  "name" : "When I type \"The name of the w\" into the search field",
+  "time" : {
+    "start" : 1609266353883,
+    "stop" : 1609266354161,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9a369bc38fe53a0",
+  "name" : "And I click the Google Search button",
+  "time" : {
+    "start" : 1609266364831,
+    "stop" : 1609266366204,
+    "duration" : 1373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25f3b48c7150fcb5",
+  "name" : "When I type \"The name of the wind\" into the search field",
+  "time" : {
+    "start" : 1609266364412,
+    "stop" : 1609266364831,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee6aa10ec379d546",
+  "name" : "When I click on \"The Books - Patrick Rothfuss\" page",
+  "time" : {
+    "start" : 1609266360762,
+    "stop" : 1609266363676,
+    "duration" : 2914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "164fd54b54aae752",
+  "name" : "Given I am on the homepage",
+  "time" : {
+    "start" : 1609266336464,
+    "stop" : 1609266338008,
+    "duration" : 1544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f33d75e4d602c9",
+  "name" : "Given I am on the homepage",
+  "time" : {
+    "start" : 1609266357490,
+    "stop" : 1609266358298,
+    "duration" : 808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96775693a5a47fef",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1609266342472,
+    "stop" : 1609266342473,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d580f168a339754",
+  "name" : "And the suggestions list is displayed",
+  "time" : {
+    "start" : 1609266354161,
+    "stop" : 1609266354380,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8658e3f1c9036234",
+  "name" : "And the suggestions list is displayed",
+  "time" : {
+    "start" : 1609266344285,
+    "stop" : 1609266344592,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64e5b2463575a35b",
+  "name" : "When I click on the first result link",
+  "time" : {
+    "start" : 1609266351056,
+    "stop" : 1609266353046,
+    "duration" : 1990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3da1ab94257601",
+  "name" : "When I type \"The name of the wind\" into the search field",
+  "time" : {
+    "start" : 1609266348426,
+    "stop" : 1609266348841,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b640218bd7aedbf",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1609266347438,
+    "stop" : 1609266347439,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d13f1b43dc74305",
+  "name" : "When I click on the first result link",
+  "time" : {
+    "start" : 1609266347437,
+    "stop" : 1609266347437,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f1401206d7ec8d1d",
+  "name" : "And the page \"The Books - Patrick Rothfuss\" is in the results",
+  "time" : {
+    "start" : 1609266366217,
+    "stop" : 1609266366990,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0a7673c2be0699b",
+  "name" : "When I type \"The name of the wind\" into the search field",
+  "time" : {
+    "start" : 1609266338008,
+    "stop" : 1609266338405,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "221dd0ba64960bab",
+  "name" : "Then I go to the search results page",
+  "time" : {
+    "start" : 1609266346070,
+    "stop" : 1609266346091,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0d2d7518e60670",
+  "name" : "Given I am on the homepage",
+  "time" : {
+    "start" : 1609266363719,
+    "stop" : 1609266364412,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8169b1436fc201e9",
+  "name" : "And I click on the first suggestion in the list",
+  "time" : {
+    "start" : 1609266344592,
+    "stop" : 1609266346070,
+    "duration" : 1478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26d4d71321ea1ed",
+  "name" : "Given I am on the homepage",
+  "time" : {
+    "start" : 1609266353171,
+    "stop" : 1609266353883,
+    "duration" : 712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc98609d5b68e45d",
+  "name" : "Then I go to the \"The Name of the Wind - Wikipedia\" page",
+  "time" : {
+    "start" : 1609266357329,
+    "stop" : 1609266357432,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16f19b4af06bcdeb",
+  "name" : "And the first result is \"The Name of the Wind - Wikipedia\"",
+  "time" : {
+    "start" : 1609266350254,
+    "stop" : 1609266351056,
+    "duration" : 802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "783034974bdbdd41",
+  "name" : "And the page \"The Books - Patrick Rothfuss\" is in the results",
+  "time" : {
+    "start" : 1609266360034,
+    "stop" : 1609266360762,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee37eb62fcd4e2b6",
+  "name" : "And I click on the first suggestion in the list",
+  "time" : {
+    "start" : 1609266358816,
+    "stop" : 1609266360002,
+    "duration" : 1186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "499ee8ef5f07a440",
+  "name" : "Then I go to the \"The Name of the Wind - Wikipedia\" page",
+  "time" : {
+    "start" : 1609266353047,
+    "stop" : 1609266353136,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43bca8f74c77e4eb",
+  "name" : "When I click on \"The Books - Patrick Rothfuss\" page",
+  "time" : {
+    "start" : 1609266366990,
+    "stop" : 1609266368360,
+    "duration" : 1370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0f2925aecfaa22f",
+  "name" : "And I click the Google Search button",
+  "time" : {
+    "start" : 1609266348841,
+    "stop" : 1609266350240,
+    "duration" : 1399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c974008c2412390",
+  "name" : "And the first result is \"The Name of the Wind - Wikipedia\"",
+  "time" : {
+    "start" : 1609266355585,
+    "stop" : 1609266356300,
+    "duration" : 715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f06d5648cfeb2ac6",
+  "name" : "Then I go to the search results page",
+  "time" : {
+    "start" : 1609266366204,
+    "stop" : 1609266366217,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dad69f6e56b5a74",
+  "name" : "And I click the Google Search button",
+  "time" : {
+    "start" : 1609266338405,
+    "stop" : 1609266340296,
+    "duration" : 1891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd7f6079c78f6104",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1609266357433,
+    "stop" : 1609266357433,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73a36cb8bf520cd6",
+  "name" : "Then I go to the search results page",
+  "time" : {
+    "start" : 1609266355570,
+    "stop" : 1609266355585,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10e30dd1786995d7",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1609266363693,
+    "stop" : 1609266363693,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71f0bfdeda1d9446",
+  "name" : "Then I go to the search results page",
+  "time" : {
+    "start" : 1609266350240,
+    "stop" : 1609266350253,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84bac6ab2ace7524",
+  "name" : "Then I go to the search results page",
+  "time" : {
+    "start" : 1609266340297,
+    "stop" : 1609266340354,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f3150ff2bf2e1d",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "time" : {
+    "start" : 1609266368360,
+    "stop" : 1609266368423,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4dfcf44f8c10b55",
+  "name" : "Given I am on the homepage",
+  "time" : {
+    "start" : 1609266347469,
+    "stop" : 1609266348425,
+    "duration" : 956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d395763c9ca526f7",
+  "name" : "Given I am on the homepage",
+  "time" : {
+    "start" : 1609266342519,
+    "stop" : 1609266343899,
+    "duration" : 1380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a06ffeb93b6c226d",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "time" : {
+    "start" : 1609266347437,
+    "stop" : 1609266347438,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ad314adb6eefc447",
+  "name" : "And the first result is \"The Name of the Wind - Patrick Rothfuss\"",
+  "time" : {
+    "start" : 1609266346091,
+    "stop" : 1609266347437,
+    "duration" : 1346
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3b4faeff10373f6",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1609266368423,
+    "stop" : 1609266368424,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed0812b977140296",
+  "name" : "Then I go to the \"Patrick Rothfuss - The Books\" page",
+  "time" : {
+    "start" : 1609266363676,
+    "stop" : 1609266363692,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
